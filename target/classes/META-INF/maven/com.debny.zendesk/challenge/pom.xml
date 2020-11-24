@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.debny.zendesk</groupId>
+  <artifactId>challenge</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Archetype - challenge</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.cloudbees.thirdparty</groupId>
+  		<artifactId>zendesk-java-client</artifactId>
+  		<version>0.14.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.slf4j</groupId>
+  		<artifactId>slf4j-nop</artifactId>
+  		<version>1.7.25</version>
+  	</dependency>
+  </dependencies>
+</project>
